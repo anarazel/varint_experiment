@@ -99,7 +99,7 @@
 
 
 /*
- * The max value fitting in a 1 byte varint. One bit is needed for the lenght
+ * The max value fitting in a 1 byte varint. One bit is needed for the length
  * indicator.
  */
 #define PG_VARINT_UINT64_MAX_1BYTE_VAL ((1L << (BITS_PER_BYTE - 1)) - 1)
